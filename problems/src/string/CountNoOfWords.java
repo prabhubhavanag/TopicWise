@@ -1,4 +1,4 @@
-package com.string;
+package string;
 
 import java.util.Arrays;
 
@@ -13,7 +13,7 @@ public class CountNoOfWords {
 		System.out.println("string split way :: " + len);
 
 		// java 8 stream way
-		len = (int) Arrays.stream(givenString.split("\\s+")).count();
+		len = (int) Arrays.stream(givenString.split("\s")).count();
 		System.out.println("java 8 stream way :: " + len);
 
 		// char Array way
