@@ -9,7 +9,7 @@ public class CountNoOfWords {
 		String givenString = "This is the sample string to be checked";
 
 		// string split way
-		len = givenString.split("\s").length;
+		len = givenString.split("\\s+").length;
 		System.out.println("string split way :: " + len);
 
 		// java 8 stream way
